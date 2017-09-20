@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pingpang</title>
+    <style type="text/css">
+        body{
+            background-color: black;
+        }
+        canvas{
+            display: block;
+            margin:0 auto;
+            background:url("images/bg.png") repeat-x;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1260" height="700"></canvas>
+    <script src="js/simplejavascriptinheritance.js"></script>
+    <script src="js/FrameTool.js"></script>
+    <script src="js/Block.js"></script>
+    <script src="js/BlockManager.js"></script>
+    <script src="js/ResourceManager.js"></script>
+    <script src="js/Racket.js"></script>
+    <script src="js/Ball.js"></script>
+    <script src="js/game.js"></script>
+    <script type="text/javascript">
+        var game=new Game(60);
+    </script>
+</body>
+</html>
